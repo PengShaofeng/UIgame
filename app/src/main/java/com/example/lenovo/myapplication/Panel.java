@@ -37,10 +37,10 @@ public class Panel extends View {
         super(context);
         this.handler = handler;
         mBallPaint = new Paint();
-        mBallPaint.setColor(Color.BLUE);
+        mBallPaint.setColor(Color.GREEN);
 
         mBoardPaint = new Paint();
-        mBoardPaint.setColor(Color.RED);
+        mBoardPaint.setColor(Color.GREEN);
 
         Resources resources = this.getResources();
         DisplayMetrics dm = resources.getDisplayMetrics();
